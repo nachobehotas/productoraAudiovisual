@@ -1,0 +1,29 @@
+.cajaFotografia {
+    border: solid;
+    border-radius: 15px;
+    color: #7a2828;
+}
+
+.mainPortfolio {        
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap column;
+    align-content: center;
+}
+
+#fotografia {
+    text-align: left;        
+    text-decoration: underline;
+}
+
+
+#videoclips {
+    text-align: left;
+    text-decoration: underline
+}
+
+.fotosPortfolio{
+    width:300px;
+    height:300px;
+    padding:10px;
+}

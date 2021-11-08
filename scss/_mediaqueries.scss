@@ -1,0 +1,132 @@
+
+@media only screen and (max-width: 768px) {
+
+    .videoIndex{
+        display: none;
+    }
+
+    .propuesta {
+            display: grid;
+            grid-template-columns:repeat(1, 4fr);
+            margin-left: 185px;
+    }
+
+    .footerIndex {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+    }
+
+    .footerIndex p {
+            margin-right: 135px;
+    }
+
+    .footerIndex .news {
+            margin-right: 270px;
+    }
+
+    #fotoResponsive {
+            display: block;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 425px){
+
+
+    .videoIndex {
+            display: none;
+    }
+
+    
+    .propuesta {
+            display: grid;
+            grid-template-columns:repeat(1, 4fr);
+            padding: 0px;
+            margin-right: 70px;
+            margin-left: 70px;
+    }
+
+    #fotoResponsive {
+            display: block;
+            width: 425px;
+    }
+
+    .footerIndex .createdBy {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+
+
+    .videoIndex {
+            display: none;
+    }
+
+    
+    .propuesta {
+            display: grid;
+            grid-template-columns:repeat(1, 4fr);
+            padding: 0px;
+            margin-left: 40px;
+            margin-right: 0px;
+    }
+
+    #fotoResponsive {
+            display: block;
+            width: 375px;
+    }
+
+    .footerIndex{
+        display: flex;
+        flex-direction: column;
+        background-color: #641115;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footerIndex .news{
+        margin: 15px 0px 15px 0px;
+    }
+    .footerIndex .copy {
+        margin: 15px 0px 15px 0px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    .videoIndex {
+            display: none;
+    }
+
+    .propuesta {
+            display: grid;
+            grid-template-columns:repeat(1, 4fr);
+            padding: 0px;
+            margin-left: 10px;
+            margin-right: 0px;
+    }
+
+    #fotoResponsive {
+            display: block;
+            width: 320px;
+    }
+
+    .footerIndex{
+        display: flex;
+        flex-direction: column;
+        background-color: #641115;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footerIndex .news{
+        margin: 15px 0px 15px 0px;
+    }
+    .footerIndex .copy {
+        margin: 15px 0px 15px 0px;
+    }
+}
