@@ -1,0 +1,521 @@
+* {
+        Margin: 0;
+        Padding:0;
+        Box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&display=swap');
+
+/* Etiquetas Html ↧ */
+
+html { 
+        font-size: 62,5%;
+}
+
+
+body {
+        line-height: 2.6;
+        font-family: 'Poppins', sans-serif;
+        background-color: #fefefe;
+}
+
+
+p {  
+        font-size: 1.1rem;
+        margin: 1rem;
+}
+
+a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #FFFFFF;
+}
+
+
+section {
+        background-color: #641115;
+}
+
+
+footer {
+        background-color: #641115;
+        color: white;
+
+}
+
+
+h1 {
+        color: #7a2828;
+        text-align: center;           
+        font-weight: 500;
+        text-transform: capitalize;
+        text-decoration: underline;
+        margin-top: 10px;
+        
+}
+
+h1:hover {
+        transform: rotateY(360deg);
+        transition: 2s;
+}
+
+h2 {
+        color: #FFFFFF;
+        text-align: center;           
+        font-weight: 300;
+        text-transform: none;
+        text-decoration: underline;
+        margin-top: 10px;
+}
+
+h2:hover{
+        transform: rotateX(360deg);
+        transition: 2s;
+}
+
+h3 {
+        color: #7a2828;
+        text-align: center;           
+        font-weight: 300;
+        text-transform: none;
+}
+
+
+hr {
+        height: 5px;
+
+        background-color: black;
+}
+
+table td{
+        margin-left: 10px;
+}
+
+video {
+        padding: 10px;
+}
+
+
+iframe {
+        padding: 10px;
+}
+
+input {
+        color: white;
+}
+
+
+/* class ↧ */
+
+
+.logo {width: 100px;
+        height: 100px;
+}
+
+.nav-item {
+        margin-left: 215px;
+        color: white;
+
+}
+
+.navbar-brand {
+        margin-left: -15px;
+        padding: 0px;
+        color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+        color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+        color: white;
+        transform: rotateY(360deg);
+        transition: 2s;
+
+}
+
+
+
+.fotosPortfolio{
+        width:300px;
+        height:300px;
+        padding:10px;
+}
+
+
+.videoIndex {
+        padding: 0;
+        height: auto;
+        width: 1903px;
+        margin-top: -20px;
+}
+
+
+.colorListas {
+        color: black;
+}
+
+.olPosicion {
+        text-align: right;
+}
+
+
+.olPosicion li {
+        list-style-type: none;
+}
+
+
+.colorTr {
+        color: black;
+        font-weight: 600;
+}
+
+
+.textosNegros {
+        color: black;
+}
+
+
+.textosBlancos {
+        color: #FFFFFF;
+}
+
+
+.equipoTrabajo {
+        color: #FFFFFF;
+        font-weight: 300;
+        text-align: left;
+        text-decoration: underline;
+        padding: 10px;
+        margin-left: 825px;
+        
+}
+
+
+.colorForm {
+        background-color: #FFFFFF;
+}
+
+
+.colorForm form {
+        text-align: center;
+}
+
+
+.cajaFotografia {
+        border: solid;
+        border-radius: 15px;
+        color: #7a2828;
+}
+
+
+.mainPortfolio {        
+        padding: 20px;
+        display: flex;
+        flex-flow: wrap column;
+        align-content: center;
+}
+
+.sectionIndex {
+        background-color: #FFFFFF;
+}
+
+
+.sectionIndex p {
+        color:black;
+        border-radius: 10px;
+        padding: 1rem;
+}
+
+
+.propuesta {
+        margin-left: 130px;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 4fr);
+        margin-left: 100px;
+
+
+}
+.propuesta .cuadrosIndex{
+        height: 300px;
+        width: 300px;
+        border: solid;
+        text-align: center;
+        padding-top: 100px;
+}
+
+.cuadrosIndex:hover {
+        transform: rotateX(360deg);
+        transition: 2s;
+        border-color: #7a2828;
+        border-style: solid;
+        border-radius: 10px;
+
+}
+
+
+.footerIndex{
+        display: flex;
+        background-color: #641115;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.footerIndex p{
+        margin-left: 150px;
+}
+
+.footerIndex .createdBy {
+        margin-right: 150px;
+
+}
+
+.footerIndex .news {
+        margin-left: 282px;
+}
+
+.btn-primary {
+        color: white;
+        background-color: #641115;
+        border-color: #641115;
+}
+.btn-primary:hover {
+        background-color: #641115;
+        border-color: #641115;
+}
+
+.modal-header {
+        color: white;
+        background-color: #641115;
+}
+
+.equipamiento{
+        color: #641115 ;
+        text-align: left;
+        margin-left: 10px;
+}
+
+.sonido{
+        color: #641115 ;
+        text-align: right;
+        margin-right: 10px;
+}
+
+.listaEquipamiento {
+        list-style: none;
+        margin-left: -20px;
+}
+
+.listaEquipamiento:hover {
+        text-decoration: underline;
+}
+
+.listaSonido{
+        text-align: right;
+        margin-right: 15px;
+        list-style: none;
+}
+
+.listaSonido:hover{
+        text-decoration: underline;
+}
+
+.links{
+        color: black;
+}
+
+/* id ↧ */
+
+#fotografia {
+        text-align: left;        
+        text-decoration: underline;
+}
+
+
+#videoclips {
+        text-align: left;
+        text-decoration: underline
+}
+
+
+#colorContacto {
+        color: #7a2828;
+}
+
+
+#contactoFooter {
+                background-color: #FFFFFF;
+
+                
+}
+
+
+#opinionFooter {
+                color: black;
+                text-decoration: underline;
+}
+
+#navBoos {
+        padding: 0px;
+        background-color: #641115;
+}
+
+#fotoResponsive {
+        display: none;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+        .videoIndex {
+                width: 1024px;
+        }
+
+        .propuesta {
+                display: grid;
+                grid-template-columns:repeat(2, 2fr);
+                margin-left: 185px;
+        }
+
+
+@media only screen and (max-width: 768px) {
+        .videoIndex {
+                display: none;
+        }
+        .navFinal {
+                display: flex;
+                flex-direction: column;        
+        }
+        .navFinal li {
+                margin-right: 0px;
+        }
+        .propuesta {
+                display: grid;
+                grid-template-columns:repeat(1, 4fr);
+                margin-left: 185px;
+        }
+
+        .footerIndex {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+        }
+
+        .footerIndex p {
+                margin-right: 135px;
+        }
+
+        .footerIndex .news {
+                margin-right: 270px;
+        }
+
+        #fotoResponsive {
+                display: block;
+        }
+}
+
+
+
+
+@media only screen and (max-width: 425px){
+
+        .navFinal {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+        }
+
+        .navFinal li {
+                margin-right: 0px;
+        }
+
+        .videoIndex {
+                display: none;
+        }
+
+        
+        .propuesta {
+                display: grid;
+                grid-template-columns:repeat(1, 4fr);
+                padding: 0px;
+                margin-right: 70px;
+                margin-left: 70px;
+        }
+
+        #fotoResponsive {
+                display: block;
+                width: 425px;
+
+        }
+}
+
+@media only screen and (max-width: 375px){
+
+        .navFinal {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+        }
+
+        .navFinal li {
+                margin-right: 0px;
+        }
+
+        .videoIndex {
+                display: none;
+        }
+
+        
+        .propuesta {
+                display: grid;
+                grid-template-columns:repeat(1, 4fr);
+                padding: 0px;
+                margin-left: 40px;
+                margin-right: 0px;
+        }
+
+        #fotoResponsive {
+                display: block;
+                width: 375px;
+
+        }
+}
+
+@media only screen and (max-width: 320px){
+
+        .navFinal {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+        }
+
+        .navFinal li {
+                margin-right: 0px;
+        }
+
+        .videoIndex {
+                display: none;
+        }
+
+        
+        .propuesta {
+                display: grid;
+                grid-template-columns:repeat(1, 4fr);
+                padding: 0px;
+                margin-left: 10px;
+                margin-right: 0px;
+        }
+
+        #fotoResponsive {
+                display: block;
+                width: 320px;
+
+        }
+}
+
