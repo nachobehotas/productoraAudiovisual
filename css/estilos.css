@@ -328,6 +328,11 @@ input {
         color: black;
 }
 
+.containerBoos{
+        background-color: white;
+        margin: 10px;
+}
+
 /* id ↧ */
 
 #fotografia {

@@ -91,58 +91,41 @@
 </section>
 <br>
 <footer class="textosNegros" id="contactoFooter">
-            <p class="textosNegros">Cuentenos los detalles de su propuesta</p>
-        <form action="">
-  </button>
-            <fieldset>
-            <div>
-                <textarea name="opinion" id="opinion" cols="40" rows="10" placeholder="Detalle su propuesta"></textarea>
+  <div container="mt-5" class="containerBoos">
+            <h4>Detalle su propuesta</h4>
+            <br>
+            <form class="row g-3">
+              <div class="col-md-6">
+                  <label for="name" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="name" required>
+              </div>  
+              <div class="col-md-6">
+                  <label for="apellido" class="form-label">Apellido</label>
+                  <input type="apellido" class="form-control" id="name" required>
+              </div>
+              <div class="col-md-8">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="name" required>
+              </div>
+              <div class="col-md-4">
+                <label for="numero" class="form-label">Numero telefonico</label>
+                <input type="text" class="form-control" id="numero" placeholder="2494-968574" required>
             </div>
-
-            <div>
-                <label for="Nombre" class="textosNegro">Nombre</label>
-                <input type="text" placeholder="Ingrese su nombre" name="Nombre">
-<br>
-                <label for="Apellido" class="textosNegro">Apellido</label>
-                <input type="text" placeholder="Ingrese su apellido" name="Apellido">
+              <div class="col-md-12">
+                <textarea class="form-control" id="detalle" rows="3" placeholder="Detalles"></textarea>
             </div>
-
-            <div>
-                <label for="Email" class="textosNegro">Email</label>
-                <input type="email" placeholder="Ingrese su email" name="Email">
-
-            </div>
-
-              <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Importante
-  </button>
-<br>
-            <div>
-                <input type="reset" value="Borrar" class="textosNegros">
-                <input type="submit" value="Enviar" class="textosNegros"> 
-            </div>
-            </fieldset>    
-            
-        </form>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Importante</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Tiempo estimado de respuesta: 24hs. En caso de no recibir una respuesta dentro de este lapso enviar un mail al correo: producciones_audiovisuales@gmail.com. Muchas gracias.
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
+              <div class="col-md-">
+                  <button type="submit" class="btn btn-primary">
+                      Enviar
+                  </button>
+              </div>
+          </form>
   </div>
+
+
+  
+
+</footer>
 
 
 
