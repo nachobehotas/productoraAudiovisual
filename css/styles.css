@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   line-height: 2.6;
   font-family: 'Poppins', sans-serif;
@@ -20,14 +19,14 @@ a {
   font-weight: 500;
   color: #FFFFFF; }
 
-
 .textosNegros {
   color: black; }
 
 .textosBlancos {
   color: #FFFFFF; }
 
-/* INDEX */
+
+
 
 
 h1 {
@@ -60,7 +59,6 @@ h3 {
   font-weight: 300;
   text-transform: none; }
 
-
 #navBoos {
   padding: 0px;
   background-color: #641115; }
@@ -84,7 +82,7 @@ h3 {
   transition: 2s; }
 
 
-/*TRANSICION*/
+/*EFECTO DEL INDEX*/
 .wrapper {
   height: 20vh;
   display: flex;
@@ -114,11 +112,7 @@ h3 {
   }
 }
 
-.textosNegros {
-  color: black; }
 
-.textosBlancos {
-  color: #FFFFFF; }
 
 .propuesta {
   margin-left: 130px;
@@ -143,6 +137,7 @@ h3 {
 
 #colorContacto {
   color: #641115; }
+
 
 /*FOOTER*/
 
@@ -201,18 +196,18 @@ h3 {
   
 
   .border-shape {
-    background: white none repeat scroll 0 0;
-    color: #fff;
-    display: block;
-    height: 1px;
-    left: 0;
-    margin: 20px auto;
-    position: relative;
-    right: 0;
-    text-align: center;
-    top: 0;
-    width: 40%;
-    }
+  background: white none repeat scroll 0 0;
+  color: #fff;
+  display: block;
+  height: 1px;
+  left: 0;
+  margin: 20px auto;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 40%;
+  }
   
   footer .bottom_content section{
   display:flex;
@@ -233,6 +228,7 @@ h3 {
 #fotoResponsive {
   display: none; }
 
+/* PORTFOLIO */
 
 .mainPortfolio {
   padding: 20px;
@@ -246,6 +242,13 @@ h3 {
 	float: left;
 	margin: 1.66%;
 }
+
+.imgPort:hover{
+  transform: rotateY(360deg);
+  transition: 2.5s;
+}
+
+/* EQUIPAMIENTO */
 
 .equipamiento {
   color: #641115;
@@ -277,6 +280,10 @@ h3 {
 .links {
   color: black; }
 
+
+/* CONTACTO */
+
+
 .btn-primary {
   color: white;
   background-color: #641115;
@@ -303,7 +310,28 @@ h3 {
 
 
 
-@media only screen and (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
   .videoIndex {
     display: none; }
   .propuesta {
@@ -342,6 +370,19 @@ h3 {
   #fotoResponsive {
     display: block;
     width: 425px; }
+    .footerResponsive{
+      display: none;
+      margin: 10px;
+    }
+    .border-shape{
+      display: none;
+    }
+    .copyright{
+      display: none;
+    }
+    h1:hover {
+      transform: none;
+      }
   }
   
   
@@ -349,12 +390,12 @@ h3 {
 @media only screen and (max-width: 375px) {
   .videoIndex {
     display: none; }
-  .propuesta {
-    display: flex;
-    grid-template-columns: repeat(1, 4fr);
-    padding: 0px;
-    margin-left: 40px;
-    margin-right: 0px; }
+    .propuesta {
+      display: grid;
+      grid-template-columns: repeat(1, 4fr);
+      padding: 10px;
+      margin-left: 35px;
+      margin-right: 0px; }
   #fotoResponsive {
     display: block;
     width: 375px;}
@@ -371,6 +412,9 @@ h3 {
   .copyright{
     display: none;
   }
+  h1:hover {
+    transform: none;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -402,4 +446,7 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;}
+    h1:hover {
+      transform: none;
+      }
     }
